@@ -7,7 +7,7 @@ import json
 
 def addTokens(addUsername, addToken):
 
-    addData = {'name': addUsername, 'addedTokens': 500, "addedXp": 500}
+    addData = {'name': addUsername, 'addedTokens': 50000, "addedXp": 500}
     addHeaders = {'Authorization': addToken}
 
     addData = json.dumps(addData)
@@ -84,4 +84,5 @@ newblooks = []
 
 addTokens(addUsername='hahayesboy', addToken='JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTg0ODI1NDJkOTU4YTIzZDUzZjUzOTkiLCJuYW1lIjoiaGFoYXllc2JveSIsImVtYWlsIjoicGFya2VyY2hhcmxlc3NtaXRoQGdtYWlsLmNvbSIsImdhbWVzUGxheWVkIjowLCJoYXNQYXNzd29yZCI6ZmFsc2UsInBsYW4iOiJTdGFydGVyIiwicm9sZSI6IlN0dWRlbnQiLCJzdHJpcGUiOiJjdXNfS1hMVW1Dc21QdnFRajkiLCJkYXRlQ3JlYXRlZCI6IjIwMjEtMTEtMDVUMDE6MDE6MDguMjg5WiIsImV4cCI6MTYzNzM3NDMwMn0.XKzSoGYOxK88vT1WAhC3wFkkxGtG5JwDd_1-pkmUmNU')
 buy(buyUsername='hahayesboy',box=box, buyHeaders={'Authorization': 'JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTg0ODI1NDJkOTU4YTIzZDUzZjUzOTkiLCJuYW1lIjoiaGFoYXllc2JveSIsImVtYWlsIjoicGFya2VyY2hhcmxlc3NtaXRoQGdtYWlsLmNvbSIsImdhbWVzUGxheWVkIjowLCJoYXNQYXNzd29yZCI6ZmFsc2UsInBsYW4iOiJTdGFydGVyIiwicm9sZSI6IlN0dWRlbnQiLCJzdHJpcGUiOiJjdXNfS1hMVW1Dc21QdnFRajkiLCJkYXRlQ3JlYXRlZCI6IjIwMjEtMTEtMDVUMDE6MDE6MDguMjg5WiIsImV4cCI6MTYzNzM3NDMwMn0.XKzSoGYOxK88vT1WAhC3wFkkxGtG5JwDd_1-pkmUmNU'})
+
 
